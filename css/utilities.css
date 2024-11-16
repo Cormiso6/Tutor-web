@@ -1,0 +1,56 @@
+.btn {
+  display: inline-block;
+  padding: 1.3rem 2.3rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 32px;
+  background: var(--secondary-color);
+  color: var(--dark-color);
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+  border-color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.7rem;
+  background: #fff;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.section {
+  margin: 4rem 0;
+}
+
+.heading-border {
+  width: 64px;
+  height: 4px;
+  background: var(--primary-color);
+  margin: 0 auto 2rem;
+}
+
+/* Section Header */
+
+.section-header {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Text Classes */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
